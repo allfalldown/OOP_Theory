@@ -20,7 +20,7 @@ struct Point{
 
 class Polygon{
     private:
-        Point point[10000];
+        Point point[1000];
     public:
         Polygon();
         Polygon(Point p, int rank);

@@ -1,29 +1,29 @@
 #include "Polygon.cpp"
 
 int main(){
-    Polygon list[100]; int n;
-    list[0].getInput(n);
-    list[0].display(n);
+    Polygon poly; int n;
+    poly.getInput(n);
+    poly.display(n);
 
     cout << "----------" << endl;
-    list[0].translation(n);
+    poly.translation(n);
     cout << "After translation" << endl;
-    list[0].display(n);
+    poly.display(n);
 
     cout << "----------" << endl;
-    list[0].rotate(n);
+    poly.rotate(n);
     cout << "After rotating" << endl;
-    list[0].display(n);
+    poly.display(n);
 
     cout << "----------" << endl;
-    list[0].zoomIn(n);
+    poly.zoomIn(n);
     cout << "After zoom in" << endl;
-    list[0].display(n);
+    poly.display(n);
 
     cout << "----------" << endl;
-    list[0].zoomOut(n);
+    poly.zoomOut(n);
     cout << "After zoom out" << endl;
-    list[0].display(n);
+    poly.display(n);
 
     return 0;
 }

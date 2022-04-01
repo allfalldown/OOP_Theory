@@ -2,7 +2,8 @@
 
 
 StackPrimeFactor::StackPrimeFactor(){
-    top = 0;}
+    top = 0;
+}
 
 void StackPrimeFactor::push(int x){
     if(top == 1000){

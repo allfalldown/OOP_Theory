@@ -17,7 +17,7 @@ void StackPrimeFactor::push(int x){
 
 int StackPrimeFactor::pop(){
     if(top == 0){
-        cout << "Stack is empty\n";
+        cout << "Stack is empty" << endl;
         return 0;
     }
     else{
